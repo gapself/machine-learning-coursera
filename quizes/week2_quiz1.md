@@ -1,3 +1,5 @@
+**Linear Regression with Multiple Variables**
+
 **Q1**
 
 Suppose m=4 students have taken some class, and the class had a midterm exam and a final exam. You have collected a dataset of their scores on the two exams, which is as follows:
@@ -8,6 +10,7 @@ midterm exam | (midterm exam)^2 | final exam
 72 | 5184 | 74
 94 | 8836 | 87
 69 | 4761 | 78
+
 You'd like to use polynomial regression to predict a student's final exam score from their midterm exam score.
 Concretely, suppose you want to fit a model of the form hθ(x)=θ0+θ1x1+θ2x2, where x1 is the midterm score and x2 is (midterm score)2.
 Further, you plan to use both feature scaling (dividing by the "max-min", or range, of a feature) and mean normalization.
@@ -16,7 +19,7 @@ What is the normalized feature x2(2)? (Hint: midterm = 69, final = 78 is trainin
 Please round off your answer to two decimal places and enter in the text box below.
 
 **SOLUTION:**
-mean normalization: [x1-A1]1/S1
+mean normalization: [x1-A1]1/S1,
 A-average value of x in this training set
 where S1=max-min
 m=examples=4
