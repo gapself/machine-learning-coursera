@@ -43,5 +43,6 @@ Which of the following statements are true? Check all that apply.
 
 **Q5**
 Suppose you train a logistic classifier hθ(x)=g(θ0+θ1x1+θ2x2). Suppose θ0=−6,θ1=1,θ2=0. Which of the following figures represents the decision boundary found by your classifier?
+
 <img width="225" alt="3" src="https://user-images.githubusercontent.com/38349049/46675809-8982db00-cbdf-11e8-811c-5a34db648039.png">
 <img width="208" alt="3a" src="https://user-images.githubusercontent.com/38349049/46675810-8982db00-cbdf-11e8-8133-10d09cdaa21c.png">
